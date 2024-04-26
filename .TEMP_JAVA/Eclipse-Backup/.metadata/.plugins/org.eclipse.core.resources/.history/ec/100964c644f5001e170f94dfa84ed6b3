@@ -1,0 +1,32 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Imovel i1 = new Novo();
+		i1.setEndereco("1");
+		i1.setPreco(10);
+		
+		Imovel i2 = new Novo();
+		i2.setEndereco("2");
+		i2.setPreco(10);
+		
+		Imovel i3 = new Novo();
+		i3.setEndereco("3");
+		i3.setPreco(10);
+		
+		Imovel i4 = new Velho();
+		i4.setEndereco("4");
+		i4.setPreco(10);
+
+		Imovel i5 = new Velho();
+		i5.setEndereco("5");
+		i5.setPreco(10);
+		
+		System.out.println(i1.getPreco());
+		System.out.println(i2.getPreco());
+		System.out.println(i3.getPreco());
+		System.out.println(i4.getPreco());
+		System.out.println(i5.getPreco());
+	}
+
+}

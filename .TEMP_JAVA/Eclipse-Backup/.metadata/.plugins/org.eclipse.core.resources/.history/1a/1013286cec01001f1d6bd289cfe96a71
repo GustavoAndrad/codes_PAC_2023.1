@@ -1,0 +1,21 @@
+
+public class Aeroporto {
+	public static void main(String[] args) {
+		Aeroporto aeroporto = new Aeroporto();
+		Helicoptero heli = new Helicoptero();
+		Hidroviao hidro = new Hidroviao();
+		Passaro p = new Passaro();
+		
+		aeroporto.permitirPouso(hidro);
+		aeroporto.permitirPouso(heli);
+		aeroporto.permitirPouso(p);
+		
+	}
+	
+	private void permitirPouso(Voador a) {
+		a.pousar();
+		if(a instanceof Helicoptero) {
+			System.out.println("helicoptero acabou de pousar");
+		}
+	}
+}

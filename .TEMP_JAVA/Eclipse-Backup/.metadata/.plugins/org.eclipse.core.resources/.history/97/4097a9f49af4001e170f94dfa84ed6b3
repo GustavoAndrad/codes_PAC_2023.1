@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Aluno a1 = new Aluno();
+		a1.setNome("Gustavo");
+		a1.setNota1(15);
+		a1.setNota2(-10);
+		
+		System.out.printf("Nome: %s\nNota 1: %2.f\nNota 2: %2.f\nMedia %2.f",
+				a1.getNome(), a1.getNota1(), a1.getNota2(), a1.media());
+		
+
+	}
+
+}

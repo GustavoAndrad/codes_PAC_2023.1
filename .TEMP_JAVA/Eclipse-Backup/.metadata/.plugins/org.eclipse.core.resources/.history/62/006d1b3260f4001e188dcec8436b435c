@@ -1,0 +1,11 @@
+package testes_interfaces_funcionarios;
+
+public class Cliente implements Autenticavel {
+
+	@Override
+	public String autentica(Funcionario f) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

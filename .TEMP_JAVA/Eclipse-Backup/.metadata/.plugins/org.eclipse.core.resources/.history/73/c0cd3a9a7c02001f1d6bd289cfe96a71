@@ -1,0 +1,7 @@
+package questao2;
+
+public class Chocolate extends Produto implements Comestivel{
+	public void desembalar() {
+		System.out.println("")
+	}
+}

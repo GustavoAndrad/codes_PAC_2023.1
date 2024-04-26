@@ -1,0 +1,18 @@
+
+public class CasaTeste {
+
+	public static void main(String[] args) {
+		Casa c1 = new Casa();
+		Casa c2 = new Casa();
+		
+		c1.cor="azul";
+		c1.numero=123;
+		
+		c2.cor="amarelo";
+		c2.numero=578;
+		
+		System.out.printf("\nA casa %d tem cor %s", c1.numero, c1.cor);
+		System.out.printf("\nA casa %d tem cor %s", c2.numero, c2.cor);
+	}
+
+}

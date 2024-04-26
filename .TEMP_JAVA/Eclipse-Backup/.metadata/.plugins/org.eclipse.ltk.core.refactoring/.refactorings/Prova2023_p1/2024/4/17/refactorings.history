@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Tapete.java&apos; to &apos;Prova2023_p1/src/questao1_2&apos;&#x0D;&#x0A;- Original project: &apos;Prova2023_p1&apos;&#x0D;&#x0A;- Destination element: &apos;Prova2023_p1/src/questao1_2&apos;&#x0D;&#x0A;- Original element: &apos;questao1_1.Tapete.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;questao1_2" element1="/src&lt;questao1_1{Tapete.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1714100739718" units="1" version="1.0"/>
+</session>

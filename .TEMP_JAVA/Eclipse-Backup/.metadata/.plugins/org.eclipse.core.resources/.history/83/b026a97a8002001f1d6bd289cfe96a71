@@ -1,0 +1,9 @@
+package questao2;
+
+public class Liquidificador extends Produto implements Ligavel{
+private String marca;
+
+public void ligar() {
+	System.out.println("Liquidificador ligando");
+}
+}

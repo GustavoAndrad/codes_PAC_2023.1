@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner t = new Scanner(System.in);
+		
+		Imovel i1 = new Novo();
+		System.out.println("Informe o endereco e o preço: ");
+		i1.setEndereco(t.nextLine());
+		i1.setPreco(t.nextDouble());
+		t.nextLine();
+		
+		Imovel i2 = new Novo();
+		System.out.println("Informe o endereco e o preço: ");
+		i2.setEndereco(t.nextLine());
+		i2.setPreco(t.nextDouble());
+		t.nextLine();
+		
+		Imovel i3 = new Novo();
+		System.out.println("Informe o endereco e o preço: ");
+		i3.setEndereco(t.nextLine());
+		i3.setPreco(t.nextDouble());
+		t.nextLine();
+		
+		Imovel i4 = new Velho();
+		System.out.println("Informe o endereco e o preço: ");
+		i4.setEndereco(t.nextLine());
+		i4.setPreco(t.nextDouble());
+		t.nextLine();
+
+		Imovel i5 = new Velho();
+		System.out.println("Informe o endereco e o preço: ");
+		i5.setEndereco(t.nextLine());
+		i5.setPreco(t.nextDouble());
+		t.nextLine();
+		
+		
+		System.out.println(i1.getPreco());
+		System.out.println(i2.getPreco());
+		System.out.println(i3.getPreco());
+		System.out.println(i4.getPreco());
+		System.out.println(i5.getPreco());
+		
+	}
+
+}

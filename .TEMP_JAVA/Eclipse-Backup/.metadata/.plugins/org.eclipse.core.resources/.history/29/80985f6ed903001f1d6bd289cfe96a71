@@ -1,0 +1,13 @@
+package questao1_2;
+
+public class Tapete extends Produto{
+	double teste=500.5;
+	Tapete(String id){
+		super(id);
+	}
+	
+	public void teste() {
+		int a = (int) teste - 1000;
+		System.out.println(a);
+	}
+}

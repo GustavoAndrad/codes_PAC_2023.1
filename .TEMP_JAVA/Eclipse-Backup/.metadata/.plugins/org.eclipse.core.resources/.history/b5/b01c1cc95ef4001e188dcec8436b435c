@@ -1,0 +1,9 @@
+package testes_interfaces_funcionarios;
+
+public class SecreariaAgencia extends Secretaria{
+
+	public double getBonificacao() {
+		return 5;
+	}
+
+}

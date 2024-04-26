@@ -1,0 +1,25 @@
+package questao1_1;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		BombaCombustivel b = new BombaCombustivel();
+		b.setQuantidadeLitros(5000);
+		b.setPrecoPorLitro(4.50);
+		
+		Carro c = new Carro("1", 5000);
+		b.completarTanque(c);
+		
+		ArrayList fila = new ArrayList();
+		
+		fila.add( new Carro("2", 100));
+		fila.add( new Moto("3", 100));
+		fila.add( new Moto("4", 100));
+		
+		b.abastecerFila(fila);
+
+	}
+
+}

@@ -1,0 +1,36 @@
+
+public class Aeroporto {
+	private String nome;
+	
+	Aeroporto(String nome){
+		this.setNome(nome);
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public static void main(String[] args) {
+		Aeroporto aeroporto = new Aeroporto("Galeao");
+		Helicoptero heli = new Helicoptero();
+		Hidroviao hidro = new Hidroviao();
+		Passaro p = new Passaro();
+		
+		aeroporto.permitirPouso(hidro);
+		aeroporto.permitirPouso(heli);
+		aeroporto.permitirPouso(p);
+		
+	}
+	
+	private void permitirPouso(Voador a) {
+		System.out.println("Aeroporto "+ this.getNome() + " vai dar permissao pra voo");
+		a.pousar();
+		if(a instanceof Animal) {
+			System.out.println("( possivel animal na pista) ");
+		}
+	}
+}

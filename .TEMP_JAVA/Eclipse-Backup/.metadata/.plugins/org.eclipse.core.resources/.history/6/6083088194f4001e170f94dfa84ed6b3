@@ -1,0 +1,30 @@
+
+public class CasaTeste {
+
+	public static void main(String[] args) {
+		Casa c1 = new Casa();
+		Casa c2 = new Casa();
+		
+		Janela j1 = new Janela();
+		j1.cor="branco";
+		j1.material="madeira";
+		
+		Janela j2 = new Janela();
+		j2.cor="preto";
+		j2.material="pedra";
+		
+		c1.cor="azul";
+		c1.numero=123;
+		c1.janela = j1;	//referncia a janela criada acima
+		
+		c2.cor="amarela";
+		c2.numero=578;
+		c2.janela = j2;
+		
+		System.out.printf("\nA casa %d tem cor %s. A janela é %s e é de %S", 
+				c1.numero, c1.cor, c1.janela.cor, c1.janela.material);
+		System.out.printf("\nA casa %d tem cor %s", 
+				c2.numero, c2.cor, c2.janela.cor, c2.janela.material);
+	}
+
+}

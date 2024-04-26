@@ -1,0 +1,13 @@
+import java.lang.Object;
+
+
+public class PrimeiraClasse {
+	public static void main(String[] args) throws InterruptedException {
+		double i = 2F;
+		while(true) {
+			i = i*2;
+			System.out.println(i);
+			Thread.sleep(1);
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package exercicioBasicoArrayPOO;
+
+public class Main {
+	public static void main(String[] args) {
+		Mochila mochilas[] = new Mochila[4];
+		
+		for(int mochila : mochilas) {
+			
+		}
+	}
+}

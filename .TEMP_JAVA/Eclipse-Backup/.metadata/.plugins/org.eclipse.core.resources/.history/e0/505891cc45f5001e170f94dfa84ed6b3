@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Imovel imoveis[] = new Imovel[5];
+		
+		imoveis[0] = new Novo();
+		imoveis[1] = new Novo();
+		imoveis[2]= new Novo();
+		imoveis[3] = new Velho();
+		imoveis[4] = new Velho();
+		
+	}
+}

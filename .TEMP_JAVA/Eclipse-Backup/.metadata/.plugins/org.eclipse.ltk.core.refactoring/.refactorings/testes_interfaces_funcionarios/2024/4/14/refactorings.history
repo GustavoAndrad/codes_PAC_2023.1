@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;testes_interfaces_funcionarios.SecreariaAgencia&apos; to &apos;SecretariaAgencia&apos;&#x0D;&#x0A;- Original project: &apos;testes_interfaces_funcionarios&apos;&#x0D;&#x0A;- Original element: &apos;testes_interfaces_funcionarios.SecreariaAgencia&apos;&#x0D;&#x0A;- Renamed element: &apos;testes_interfaces_funcionarios.SecretariaAgencia&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SecreariaAgencia&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;testes_interfaces_funcionarios{SecreariaAgencia.java[SecreariaAgencia" matchStrategy="1" name="SecretariaAgencia" qualified="false" references="true" similarDeclarations="false" stamp="1712439843341" textual="false" version="1.0"/>
-</session>

@@ -1,9 +1,0 @@
-package testes_interfaces_funcionarios;
-
-public class Cliente {
-
-	public String autentica(int senha) {
-		return "Cliente logado";
-	}
-
-}

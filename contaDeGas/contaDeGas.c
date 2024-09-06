@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 float calculaContaGas(float gasM3){
-    int valorPagar;
+    float valorPagar;
+    printf("%f",gasM3);
     if(gasM3>=0 && gasM3<=7){
         valorPagar = gasM3*1;
     }
@@ -19,10 +20,10 @@ float calculaContaGas(float gasM3){
 }
 
 int main(){
-    int gasM3;
+    float gasM3;
     printf("=============VALOR DO SEU GÁS==============");
     printf("\nInforme o consumo de gás em metros cúbicos: \n");
-    scanf("%d", &gasM3);
+    scanf("%f", &gasM3);
     printf("\nSeu gás hoje está custando: R$%.2f", calculaContaGas(gasM3));
     return 0;
 }
